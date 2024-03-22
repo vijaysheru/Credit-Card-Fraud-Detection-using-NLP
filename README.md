@@ -1,1 +1,7 @@
 # Credit-Card-Fraud-Detection-using-NLP
+
+This project consists of several essential steps for building and training a neural network for credit card fraud detection. It begins by importing the necessary libraries, including pandas for data manipulation, torch.nn and torch.nn.functional for defining and training neural networks, and matplotlib.pyplot and seaborn for data visualization. The credit card transaction dataset is then loaded using pd.read_csv, and the first few rows of the dataset are displayed to provide an initial overview of the data.
+
+Subsequently, the code performs data preprocessing, which involves dropping non-numeric or non-essential columns from the dataset and splitting the data into training and testing sets. The numeric features are then converted to PyTorch tensors, which are essential for training a PyTorch neural network.
+
+The next steps include defining a neural network architecture for fraud detection, training the model using the defined architecture, and evaluating the model's performance. The model is trained using a specified number of epochs, and the loss is printed at regular intervals to monitor the training progress. After training, the model is evaluated using the testing set, and a classification report and confusion matrix are generated to assess the model's performance. The confusion matrix is visualized using seaborn to provide a clear representation of the model's predictive capabilities.
